@@ -1,16 +1,36 @@
+<!DOCTYPE html>
 <html>
+    <title>Home_Work_Project</title>
     <head>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     </head>
+    <div class="maindiv">
     <body>
         <h1>Simple Interest Calculator</h1>
 
-        Amount <input type="number"  id="principal">  <br/>
+        Amount <input type="range"  id="rate" min="minval" max="maxval" value="default_val">  <br/>
         Rate <input type="number"  id="rate">  <br/>
+        <span id="rate_val">
+        10.25%
+        </span>
         No. of Years <input type="number"  id="years">  <br/>
+        <select id="years">
+        <option value="1">1</option>
+        (html comment removed:  fill in the rest of the values)
+        </select>  
         Interest : <span id="result"></span><br>
 
-        <button onclick="compute()">Compute</button>
+        <button onclick="compute()">Compute Interest</button>
+        <span id="result">
+
+        </span>
     </body>
+    </div>
+    <footer>
+
+        &#169; This Calculator belongs to --your name--
+
+
+    </footer>
 </html>
