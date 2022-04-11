@@ -1,10 +1,27 @@
 body {background-color:black;font-family:arial;color:white}
-h1{color:grey;font-family:verdana}
-.maindiv {
-    background-color:white;
-    color:black;
-    width:300px;
-    padding:20px;
-    border-radius:25px;
-    align:center
+h1 {color:grey;font-family:verdana}
+
+.maindiv {background-color:white;color:black;width:500px; padding: 20px;border-radius: 25px;margin: auto;
+}
+
+.central{width: 400px; height: auto;margin: auto}
+
+#principal{margin-left: 70px;margin-bottom: 15px;
+
+}
+#rate{margin-left: 32px;margin-bottom: 15px;
+
+}
+#rate_val{margin-left: 20px
+
+}
+#result{margin-left: 50px
+
+}
+#years{margin-left: 40px;
+
+}
+
+.highlight{
+    background-color: yellow;
 }
